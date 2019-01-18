@@ -32,6 +32,12 @@ h5 { font-size: 16px; }
 
 p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 35px; }
 
+.thetable tr td {
+	text-align: center;
+	border: 2px solid #ddd;
+	padding: 15px;
+}
+
 .container { display: block !important; clear: both !important; margin: 25px auto !important; max-width: 980px !important; }
 
 .container table { width: 100% !important; border-collapse: collapse; }
