@@ -46,6 +46,8 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 35px; }
 
 .container .masthead h1 { margin: 0 auto !important; max-width: 90%; text-transform: uppercase; }
 
+.container .masthead h4 { margin-bottom: 0; }
+
 .container .content { background: white; padding: 70px 120px; }
 
 .container .content.footer { background: none; }
