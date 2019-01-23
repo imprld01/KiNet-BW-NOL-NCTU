@@ -38,7 +38,7 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 35px; }
 	padding: 15px;
 }
 
-.container { display: block !important; clear: both !important; margin: 25px auto !important; max-width: 980px !important; }
+.container { display: block !important; clear: both !important; margin: 25px auto !important; max-width: 1300px !important; }
 
 .container table { width: 100% !important; border-collapse: collapse; }
 

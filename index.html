@@ -55,42 +55,89 @@
 						<p>
 							研究除了使用開源資料之外，也自行收集Kinect v2的原始感測資料，包含彩色影像、深度影像與人體關節註釋等資料。
 						</p>
-						<table class="thetable" style="margin-bottom: 30px">
+						<table class="thetable" style="margin-bottom: 30px;">
 							<caption>資料集資源 (Dataset Resource)</caption>
 							<tr>
-								<td>資料集</td>
+								<td width="5%">資料集</td>
+								<td>內容</td>
+								<td width="8%">關結數</td>
+								<td>景深距離</td>
+								<td width="10%">樣本數</td>
 								<td>原始來源 (Open Data)</td>
-								<td>備份源</td>
+								<td>檔案格式</td>
+								<td width="5%">備份源</td>
 							</tr>
 							<tr>
 								<td>MPII Dataset</td>
-								<td>
-									RGB Image & Annotation: <a href="http://human-pose.mpi-inf.mpg.de/#download" target="_blank">http://human-pose.mpi-inf.mpg.de/#download</a><br/>
-									Validation: <a href="http://www.cims.nyu.edu/~tompson/data/mpii_valid_pred.zip" target="_blank">http://www.cims.nyu.edu/~tompson/data/mpii_valid_pred.zip</a></td>
+								<td style="text-align: left;">
+									1. Color Image<br/>
+									2. Joint Annotation<br/>
+								</td>
+								<td>16 joints</td>
+								<td>-</td>
+								<td>28883</td>
+								<td style="text-align: left;">
+									<a href="http://human-pose.mpi-inf.mpg.de/#download" target="_blank">RGB Image & Annotation</a><br/>
+									<a href="http://www.cims.nyu.edu/~tompson/data/mpii_valid_pred.zip" target="_blank">Validation</a>
+								</td>
+								<td>MAT</td>
 								<td>
 									<a href="https://drive.google.com/open?id=1TPHkuDoO_zqM8jlpynhWVUt_ZGVfBNCn" target="_blank">NOL Backup</a>
 								</td>
 							</tr>
 							<tr>
 								<td>NYU-Depth Dataset</td>
-								<td>
-									V1: <a href="https://cs.nyu.edu/~silberman/datasets/nyu_depth_v1.html" target="_blank">https://cs.nyu.edu/~silberman/datasets/nyu_depth_v1.html</a><br/>
-									V2: <a href="https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html" target="_blank">https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html</a>
+								<td style="text-align: left;">
+									1. Color Image<br/>
+									2. Depth Map
 								</td>
+								<td>-</td>
+								<td>0.8 ~ 4.0 m</td>
+								<td>3733<br/>(v1: 2284, v2: 1449)</td>
+								<td style="text-align: left;">
+									<a href="https://cs.nyu.edu/~silberman/datasets/nyu_depth_v1.html" target="_blank">NYU V1</a><br/>
+									<a href="https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html" target="_blank">NYU V2</a><br/>
+								</td>
+								<td>MAT</td>
 								<td>
 									<a href="https://drive.google.com/open?id=1J03riMqOzlO9Uc0SIkTrlufDu8CrLRhf" target="_blank">NOL Backup</a>
 								</td>
 							</tr>
 							<tr>
 								<td>NCTU Fitness Dataset</td>
-								<td><a href="https://drive.google.com/drive/folders/1v2en12WdcymzYGOiVmRUtHNGzQYV6tJj" target="_blank">https://drive.google.com/drive/folders/1v2en12WdcymzYGOiVmRUtHNGzQYV6tJj</a></td>
+								<td style="text-align: left;">
+									1. Color Image<br/>
+									2. Joint Annotation<br/>
+									3. Depth Map<br/>
+									4. Binocular Color Image<br/>
+									5. IMU Data<br/>
+									6. Mobile Video
+								</td>
+								<td>25 joints</td>
+								<td>0.5 ~ 4.5 m</td>
+								<td>47131</td>
+								<td style="text-align: left;">
+									<a href="https://drive.google.com/drive/folders/1v2en12WdcymzYGOiVmRUtHNGzQYV6tJj" target="_blank">Fitness</a><br/>
+								</td>
+								<td>CSV</td>
 								<td>
 									<a href="https://imprld01.github.io/Construction-Page" target="_blank">NOL Backup</a>
 								</td>
 							</tr>
 							<tr>
 								<td>NOL Kinect Dataset</td>
-								<td>-</td>
+								<td style="text-align: left;">
+									1. Color Image<br/>
+									2. Joint Annotation<br/>
+									3. Depth Map
+								</td>
+								<td>25 joints</td>
+								<td>0.5 ~ 4.5 m</td>
+								<td>???</td>
+								<td style="text-align: left;">
+									-
+								</td>
+								<td>CSV</td>
 								<td>
 									<a href="https://imprld01.github.io/Construction-Page" target="_blank">NOL Backup</a>
 								</td>
